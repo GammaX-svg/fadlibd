@@ -1,0 +1,137 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-container {
+    width: 100%;
+}
+
+.navbar-body {
+    margin: auto;
+    width: 80%;
+    background-color: none;
+    padding: 1em;
+}
+
+.navbar-menu {
+    font-size: 14px;
+    float: right;
+    margin: 0;
+    list-style: circle;
+    padding: 4px 0;
+}
+
+.navbar-item {
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline;
+    padding: 0px 20px;
+}
+
+/* banner */
+.banner-container {
+    width: 100%;
+    border: solid 1px black;
+}
+.banner-body {
+    overflow: hidden;
+    background-image: url("duduk.jpg");
+    background-size: cover;
+    height: 1200px;
+    margin: 0;
+}
+.banner-color {
+    width: 100%;
+    text-align:  center   ;
+    padding: 100px 10px;
+    color: black;
+   
+}
+.banner-color h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.laporan {
+    font-family: cursive;
+    margin: auto;
+    padding: 30px;
+    color: black;
+    font-size: 2vh;
+    text-align:center;
+    text-shadow: 5px 5px 5px rgb(102, 0, 128);
+}
+
+.doc {
+    margin:  0% 3%;
+    padding: 1px;
+    float: left;
+}
+
+.doc2 {
+    margin:  0% 3%;
+    padding: 1px;
+    background-position-x: center;
+}
+.Document-satu{
+    border: solid 1px;
+    border-radius: 50px;
+    width: 27%;
+    height: 27%;
+    float: left;
+    padding: 15px;
+    margin: 20px;
+    color: black;
+    
+
+}
+
+.Document-dua{
+    border: solid 1px;
+    border-radius: 50px;
+    width: 27%;
+    height: 27%;
+    float: left;
+    padding: 15px;
+    margin: 20px;
+    color: black;
+    
+}
+.isi {
+    width: 350px;
+    height: 142px;
+}
+.btn {
+    text-align: center;
+    padding: 0px 20px;
+}
+.buton {
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    color: black;
+    border: solid 1px black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    margin: 0px 35px;   
+}
+
+.buton:hover{
+    background-color: black;
+    color:white;
+    transition: 0.2s ease;
+} 
+
+h2 {
+    text-align: center;
+}
+.footer {
+    font-size: 12px;
+    padding: 14px 0;
+    color: white;
+    text-align: center;
+    background-color: #282627;
